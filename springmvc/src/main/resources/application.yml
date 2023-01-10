@@ -1,0 +1,19 @@
+#?? ??
+server:
+  port: 8099
+
+#??????, JPA, Mysql,, ???? ??? ?? ????.
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver #driver class
+    url: jdbc:mysql://localhost:3306/mysqltest0109 #DB URL
+    userName: root #?? ???
+    password: 1234 #?? ????
+
+#thymeleaf -> springboot ???? resource/templates/**
+thymeleaf:
+  prefix: classpath:/templates/
+  suffix: .html
+  cache: false
+  enabled: true
+

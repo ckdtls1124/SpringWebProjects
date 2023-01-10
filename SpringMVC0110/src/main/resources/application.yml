@@ -1,0 +1,18 @@
+server :
+  port : 8099
+
+
+datasource :
+    driver-class-name : com.mysql.cj.jdbc.Driver
+    datasource :
+    url : jdbc:mysql://localhost:3306/mysqltest0109
+    username : root
+    password : 1234
+
+spring :
+    thymeleaf :
+    prefix : classpath:/templates/
+    suffix : .html
+    cache : false
+    enabled : true
+
